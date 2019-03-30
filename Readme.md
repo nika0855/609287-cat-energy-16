@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
-* Студент: [андрей](https://up.htmlacademy.ru/adaptive/16/user/609287).
-* Наставник: `Неизвестно`.
+* Студент: [Андрей Войнов](https://up.htmlacademy.ru/adaptive/16/user/609287).
+* Наставник: Дмитрий Могиль.
 
 ---
 
