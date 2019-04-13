@@ -6,3 +6,8 @@
   @include clear;
   list-style: none;
 }
+@mixin dis-fl-col {
+  display: flex;
+  flex-direction: column;
+}
+

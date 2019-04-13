@@ -1,0 +1,14 @@
+@import "../utilities/mixins";
+@import "../utilities/variables";
+
+.product {
+  @include dis-fl-col;
+}
+
+.product__card {
+  display: flex;
+  flex-direction: column;
+}
+.product__wrapper {
+  display: flex;
+}

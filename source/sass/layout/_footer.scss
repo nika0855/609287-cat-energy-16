@@ -1,0 +1,11 @@
+@import "../utilities/mixins";
+@import "../utilities/variables";
+
+.footer-page__wrapper {
+  @include dis-fl-col;
+  background: $grayish;
+}
+
+.footer-page__image--logo {
+  margin: 0 auto;
+}
