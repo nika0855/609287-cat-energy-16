@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/style.css">
+   
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,700&amp;subset=cyrillic" rel="stylesheet">
     <title>Energy catalog</title>
   </head>
   <body>
@@ -13,12 +15,12 @@
                 <img class="page-header__logo-image" src="img/logo-mobile.svg" width="200" height="38" alt="logo-mobile">
               </a>
               <a  class="page-header__logo">
-                <img class="page-header__logo-slogan" src="img/icon-mobile-menu.svg" width="24" height="18" alt="logo-slogan">
+                <img class="page-header__logo-slogan" src="img/icon-mobile-menu.svg" width="24" height="18" alt="logo-menu">
               </a>
               </div>
 
           <nav class="main-nav">
-            <button class="main-nav__toggle" type="button">Открыть меню</button>
+
             <div class="main-nav__wrapper">
             <ul class="main-nav__list site-list">
               <li class="site-list__item ">
@@ -39,17 +41,17 @@
           <h2 class="product__caption">Каталог продукции</h2>
           <article class="product__card">
             <div class="product__wrapper">
-            <div class="product__card--left">
+            <div class="product__card product__card--left">
               <img class="product__image" src="img/chicken-small-mobile@1x.jpg" width="140" height="144" alt="logo-mobile">
             </div>
-            <div class="product__card--right">
+            <div class="product__card product__card--right">
              <h3 class="product__title">
                CAT ENERGY <br> PRO
                500 Г
              </h3>
              <table class="product__list">
                <tr>
-                 <td class="product__value">объем</td>
+                 <td class="product__value">Обьем</td>
                  <td class="product__field">500 г</td>
                </tr>
                <tr>
@@ -67,14 +69,16 @@
           </article>
 
           <article class="product__card">
+              <div class="product__wrapper">
               <img class="product__image" src="img/chicken-big-mobile@1x.jpg" width="140" height="144" alt="logo-mobile">
+              <div class="product__card product__card--right">
              <h3 class="product__title">
                CAT ENERGY <br> PRO
                1000 Г
              </h3>
              <table class="product__list">
                <tr>
-                 <td class="product__value">объем</td>
+                 <td class="product__value">Обьем</td>
                  <td class="product__field">1000 г</td>
                </tr>
                <tr>
@@ -86,6 +90,8 @@
                  <td class="product__field">1000 Р</td>
                </tr>
              </table>
+            </div>
+             </div>
              <button class="product__btn button">ЗАКАЗАТЬ</button>
           </article>
 
@@ -97,7 +103,7 @@
              </h3>
              <table class="product__list">
                <tr>
-                 <td class="product__value">объем</td>
+                 <td class="product__value">Обьем</td>
                  <td class="product__field">500 г</td>
                </tr>
                <tr>
@@ -120,7 +126,7 @@
              </h3>
              <table class="product__list">
                <tr>
-                 <td class="product__value">объем</td>
+                 <td class="product__value">Обьем</td>
                  <td class="product__field">1000 г</td>
                </tr>
                <tr>
@@ -143,7 +149,7 @@
              </h3>
              <table class="product__list">
                <tr>
-                 <td class="product__value">объем</td>
+                 <td class="product__value">Обьем</td>
                  <td class="product__field">500 г</td>
                </tr>
                <tr>
@@ -166,7 +172,7 @@
              </h3>
              <table class="product__list">
                <tr>
-                 <td class="product__value">объем</td>
+                 <td class="product__value">Обьем</td>
                  <td class="product__field">1000 г</td>
                </tr>
                <tr>
@@ -189,7 +195,7 @@
              </h3>
              <table class="product__list">
                <tr>
-                 <td class="product__value">объем</td>
+                 <td class="product__value">Обьем</td>
                  <td class="product__field">500 г</td>
                </tr>
                <tr>
@@ -212,7 +218,7 @@
             <h4 class="product__subtitle">
                 На самом деле вкусов гораздо больше!
             </h4>
-             <button class="product__btn button">Показать все</button>
+             <button class="product__btn--grey button">Показать все</button>
           </article>
         </section>
 
@@ -228,7 +234,7 @@
       </main>
       <footer class="footer-page">
           <div class="footer-page__wrapper">
-          <div class="footer-page__image--logo">
+          <div class="footer-page__image">
               <img src="img/logo-footer.svg" width="128" height="24" alt="cat energy">
           </div>
           <div class="footer-page__social social">
@@ -237,15 +243,15 @@
                 <a class="social__link social__link--vkontakte" href="http://vk/com/htmlacademy">Мы в контакте</a>
               </li>
               <li class="social__item">
-                <a class="social__link social__link--" href="http://www.facebook.com/htmlacademy" >Мы в фейсбуке</a>
+                <a class="social__link social__link--facebook" href="http://www.facebook.com/htmlacademy" >Мы в фейсбуке</a>
               </li>
               <li class="social__item">
-                <a class="social__link social__link--" href="http://www.instagram.com/htmlacademy" >Мы в инстаграме</a>
+                <a class="social__link social__link--instagram" href="http://www.instagram.com/htmlacademy" >Мы в инстаграме</a>
               </li>
             </ul>
           </div>
           <div class="page-footer__copyright copyright">
-              <a class="button copyright__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+              <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
               <img src="img/htmlacademy.svg" width="27" height="34" alt="logo-academy">
             </div>
           </div>

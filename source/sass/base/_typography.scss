@@ -1,10 +1,22 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald');
+@font-face {
+  font-family: 'Oswald';
+  src: url('../fonts/oswaldmedium.woff') format('woff'),
+  url("../fonts/oswaldmedium.woff2") format("woff2");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: url('../fonts/oswaldregular.woff') format('woff'),
+  url("../fonts/oswaldregular.woff2") format("woff2");
+  font-weight: bold;
+}
 
 body {
   max-width: 320px;
   font-size: 14px;
   line-height: 18px;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald', Arial, sans-serif;
   font-style: normal;
 }
 

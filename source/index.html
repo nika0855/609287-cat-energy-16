@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/style.css">
+
   <title>Document</title>
 </head>
 <body>
@@ -14,28 +15,28 @@
       <img class="page-header__logo-image" src="img/logo-mobile.svg" width="200" height="38" alt="logo-mobile">
     </a>
     <a  class="page-header__logo">
-      <img class="page-header__logo-slogan" src="img/icon-mobile-menu.svg" width="24" height="18" alt="logo-slogan">
+      <img class="page-header__logo-slogan" src="img/icon-mobile-menu.svg" width="24" height="18" alt="logo-menu">
     </a>
     </div>
     <nav class="main-nav">
-      <button class="main-nav__toggle" type="button">Открыть меню</button>
+
       <div class="main-nav__wrapper">
       <ul class="main-nav__list site-list">
         <li class="site-list__item site-list__item--active">
           <a>Главная</a>
         </li>
         <li class="site-list__item">
-          <a href="form.html">Каталог продукции</a>
+          <a href="catalog.html">Каталог продукции</a>
         </li>
         <li class="site-list__item">
-          <a href="catalog.html">Подбор программы</a>
+          <a href="form.html">Подбор программы</a>
         </li>
       </ul>
       </div>
     </nav>
     <div class="page-header__widget">
-      <h2>Функциональное питание для котов</h2>
-      <h3>Занялся собой? Займись котом!</h3>
+      <h2 class="page-header__title">Функциональное питание для котов</h2>
+      <h3 class="page-header__title--small">Занялся собой? Займись котом!</h3>
       <img src="img/index-can-mobile@1x.png" width="280" height="271" alt="can" class="page-header__widget-image">
       <button class="button header-btn">Подобрать программу</button>
     </div>
@@ -45,36 +46,38 @@
     <h1 class="visually-hidden">Функциональное питание для котов</h1>
     <section class="categories">
       <div class="categories-column__right">
-        <img src="img/icon-cat-slim.svg" width="35" height="49" alt="sitting cat">
+        <div class="categories-column__right--img"></div>
+        <!-- <img src="img/icon-cat-slim.svg" width="35" height="49" alt="sitting cat"> -->
         <h2>Похудение</h2>
-        <p class="categories-text">
+        <p class="categories__text">
             Ваш кот весит больше собаки и
             почти утратил способность лазить
             по деревьям? Пора на диету!
             Cat Energy Slim поможет вашему
             питомцу сбросить лишний вес.
         </p>
-        <div class="cataloge-slim">
+        <div class="categories__slim">
           <h3>каталог</h3>
-          <a href="#" class="cataloge-slim__arrow">
+          <a href="#" class="categories__slim--arrow">
             <img src="img/icon-right-arrow-long.svg" width="24" height="11" alt="right-arrow">
           </a>
         </div>
       </div>
 
       <div class="categories-column__left">
-          <img src="img/icon-cat-pro.svg" width="67" height="28" alt="sitting cat">
+        <div class="categories-column__left--img"></div>
+          <!-- <img src="img/icon-cat-pro.svg" width="67" height="28" alt="sitting cat"> -->
           <h2>Набор массы</h2>
-          <p class="categories-text">
+          <p class="categories__text">
               Заработать авторитет среди
-               дворовых котов и даже собак?
+              дворовых котов и даже собак?
               Серия Cat Energy Pro поможет
               вашему коту нарастить
-               необходимые мышцы!
+              необходимые мышцы!
           </p>
-          <div class="cataloge-pro">
+          <div class="categories__pro">
             <h3>каталог</h3>
-            <a href="#" class="cataloge-slim__arrow">
+            <a href="#" class="categories__pro--arrow">
               <img src="img/icon-right-arrow-long.svg" width="24" height="11" alt="right-arrow">
             </a>
           </div>
@@ -84,7 +87,7 @@
     <section class="advantages">
       <div class="advantages__wrapper">
       <h2 class="visually-hidden">как это работает</h2>
-      <h3 class="advantages__title">как это работает</h3>
+      <h3 class="advantages__title">Как это работает</h3>
       <ul class="advantages__list">
         <li class="advantages__item advantages__item--list">
           <p class="advantages__description">
@@ -116,11 +119,11 @@
       <h3 class="case-study__title">Живой пример</h3>
       <p class="case-study__description">
           Борис сбросил 5 кг за 2 месяца, просто
-           заменив свой обычный корм на Cat Energy
-           Slim. Отличный результат без изнуряющих
+          заменив свой обычный корм на Cat Energy
+          Slim. Отличный результат без изнуряющих
           тренировок! При этом он не менял своих
-           привычек и по-прежнему
-           спит по 16 часов в день.
+          привычек и по-прежнему
+          спит по 16 часов в день.
       </p>
       <table class="case-study__list">
         <caption class="case-study__caption">Затраты на питание:  15 000 руб.</caption>
@@ -163,7 +166,7 @@
     </section>
     <footer class="footer-page">
       <div class="footer-page__wrapper">
-      <div class="footer-page__image--logo">
+      <div class="footer-page__image">
           <img src="img/logo-footer.svg" width="128" height="24" alt="cat energy">
       </div>
       <div class="footer-page__social social">
@@ -172,15 +175,15 @@
             <a class="social__link social__link--vkontakte" href="http://vk/com/htmlacademy" width="22" height="12" >Мы в контакте</a>
           </li>
           <li class="social__item">
-            <a class="social__link social__link--" href="http://www.facebook.com/htmlacademy" >Мы в фейсбуке</a>
+            <a class="social__link social__link--facebook" href="http://www.facebook.com/htmlacademy" >Мы в фейсбуке</a>
           </li>
           <li class="social__item">
-            <a class="social__link social__link--" href="http://www.instagram.com/htmlacademy" >Мы в инстаграме</a>
+            <a class="social__link social__link--instagram" href="http://www.instagram.com/htmlacademy" >Мы в инстаграме</a>
           </li>
         </ul>
       </div>
       <div class="page-footer__copyright copyright">
-          <a class="button copyright__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+          <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
           <img src="img/htmlacademy.svg" width="27" height="34" alt="logo-academy">
         </div>
       </div>

@@ -1,3 +1,5 @@
+@import "normalize";
+
 @import "utilities/variables";
 @import "utilities/mixins";
 
@@ -7,7 +9,7 @@
 
 @import "layout/header";
 @import "layout/navigation";
-@import "layout/grid";
+@import "layout/main";
 @import "layout/footer";
 @import "layout/forms";
 @import "layout/catalog"

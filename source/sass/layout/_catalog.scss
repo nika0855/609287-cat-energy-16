@@ -1,6 +1,25 @@
 @import "../utilities/mixins";
 @import "../utilities/variables";
 
+h2 {
+  color: #111111;
+  font-family: ""Oswald",Arial, sans-serif",Arial, sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 60px;
+  padding-left: 22px;
+}
+
+.categories__text {
+  width: 223px;
+  color: #444444;
+  font-family: "Arial MT";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  padding: 0 36px 0 21px;
+}
+
 .product {
   @include dis-fl-col;
 }
@@ -8,7 +27,70 @@
 .product__card {
   display: flex;
   flex-direction: column;
+  border-bottom: 2px solid rgb(237, 237, 237);
+  border-top: 2px solid rgb(237, 237, 237);
 }
 .product__wrapper {
   display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+.product__card--right {
+  width: 150px;
+  @include  dis-fl-col;
+}
+
+.product__title {
+
+  color: #111111;
+  font-family: "Oswald",Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.product__subtitle {
+  color: #444444;
+  font-family: "Arial MT";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+td {
+  width: 38px;
+  color: #444444;
+  font-family: "Arial MT";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.button {
+  width: 280px;
+  height: 40px;
+  margin: 0 auto;
+  background-color: #68b738;
+  border: none;
+}
+
+.product__btn {
+  color: #ffffff;
+  font-family: "Oswald",Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.product__btn--grey {
+  background-color: #f2f2f2;
+  color: #444444;
+  font-family: "Oswald",Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: uppercase;
 }
