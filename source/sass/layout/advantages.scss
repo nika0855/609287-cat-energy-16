@@ -1,0 +1,28 @@
+@import "../utilities/mixins";
+@import "../utilities/variables";
+
+
+.advantages__wrapper {
+  @include dis-fl-col;
+}
+
+.case-study {
+  background: $grayish;
+}
+
+.advantages__title {
+  color: #111111;
+  font-family: "Oswald",Arial, sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 60px;
+}
+
+.advantages__description {
+  width: 176px;
+  color: #444444;
+font-family: "Arial MT";
+font-size: 14px;
+font-weight: 400;
+line-height: 18px
+}

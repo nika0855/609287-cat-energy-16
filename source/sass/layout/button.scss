@@ -1,0 +1,11 @@
+@import "../utilities/mixins";
+@import "../utilities/variables";
+
+
+.button {
+  width: 280px;
+  height: 40px;
+  margin: 0 auto;
+  background-color: #68b738;
+  border: none;
+}

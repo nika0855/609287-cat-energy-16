@@ -1,0 +1,21 @@
+@import "../utilities/mixins";
+@import "../utilities/variables";
+
+
+.case-study__title {
+  color: #111111;
+  font-family:"Oswald",Arial, sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 60px;
+  }
+
+  .case-study__description {
+    width: 266px;
+  height: 103px;
+  color: #444444;
+  font-family: "Arial MT";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  }

@@ -1,7 +1,7 @@
 @import "../utilities/mixins";
 @import "../utilities/variables";
 
-h2 {
+.product__caption {
   color: #111111;
   font-family: ""Oswald",Arial, sans-serif",Arial, sans-serif;
   font-size: 36px;
@@ -10,15 +10,7 @@ h2 {
   padding-left: 22px;
 }
 
-.categories__text {
-  width: 223px;
-  color: #444444;
-  font-family: "Arial MT";
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 18px;
-  padding: 0 36px 0 21px;
-}
+
 
 .product {
   @include dis-fl-col;
@@ -68,13 +60,6 @@ td {
   line-height: 16px;
 }
 
-.button {
-  width: 280px;
-  height: 40px;
-  margin: 0 auto;
-  background-color: #68b738;
-  border: none;
-}
 
 .product__btn {
   color: #ffffff;
