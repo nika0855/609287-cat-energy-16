@@ -1,6 +1,9 @@
 @import "../utilities/mixins";
 @import "../utilities/variables";
 
+.case-study {
+  background: $grayish;
+}
 
 .case-study__title {
   color: #111111;

@@ -1,13 +1,6 @@
 @import "../utilities/mixins";
 @import "../utilities/variables";
 
-.page-header__app{
-  display:flex;
-  justify-content: space-around;
-}
-.page-header {
-  @include dis-fl-col;
-  flex-wrap: wrap;
-}
+
 
 

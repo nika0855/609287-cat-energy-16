@@ -1,3 +1,15 @@
+@import "../utilities/mixins";
+@import "../utilities/variables";
+
+.page-header__app{
+  display:flex;
+  justify-content: space-around;
+}
+.page-header {
+  @include dis-fl-col;
+  flex-wrap: wrap;
+}
+
 .page-header__title {
   color: #ffffff;
   font-family: "Oswald",Arial, sans-serif;
@@ -20,7 +32,7 @@
   background-repeat: no-repeat;
 }
 
-.header-btn {
+.header__btn {
   color: #ffffff;
   font-size: 14px;
   font-weight: 400;
